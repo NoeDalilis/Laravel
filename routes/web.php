@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/name', function () {
     return view('name');
 });
+Route::get('/number', function () {
+    return view('info.number');
+});
